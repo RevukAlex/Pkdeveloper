@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.revuk.pkdeveloper.Activity_2"
+    android:id="@+id/realtive"
+    android:padding="0dp"
+
+    android:background="@drawable/big">
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="H"
+        android:id="@+id/b1"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/b2"
+
+         />
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="A"
+        android:id="@+id/b2"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/b1"
+        android:layout_toStartOf="@+id/b3"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="R"
+        android:id="@+id/b3"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/b2"
+        android:layout_toStartOf="@+id/b4"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="Y"
+        android:id="@+id/b4"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/b3"
+        android:layout_toStartOf="@+id/b5"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="M"
+        android:id="@+id/b5"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/b4"
+        android:layout_toStartOf="@+id/b6"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="N"
+        android:id="@+id/b6"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/b5"
+        android:layout_toStartOf="@+id/imageButton"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <ImageButton
+        android:layout_width="12dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageButton"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/b6"
+        android:layout_centerHorizontal="true" />
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="B"
+
+        android:id="@+id/b7"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+
+        android:layout_alignTop="@+id/b6"
+        android:layout_toEndOf="@+id/imageButton"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="Q"
+        android:id="@+id/b8"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/b7"
+        android:layout_toEndOf="@+id/b7"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="T"
+        android:id="@+id/b9"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/b8"
+        android:layout_toEndOf="@+id/b8"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="L"
+        android:id="@+id/b10"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/b9"
+        android:layout_toEndOf="@+id/b9"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="H"
+        android:id="@+id/b11"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginStart="12dp"
+        android:layout_alignTop="@+id/b10"
+        android:layout_toEndOf="@+id/b10"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <com.example.revuk.pkdeveloper.Fonts
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="A"
+        android:id="@+id/b12"
+        android:onClick="onClick"
+        android:background="@drawable/selector"
+        android:layout_marginStart="12dp"
+
+        android:layout_alignTop="@+id/b11"
+        android:layout_toEndOf="@+id/b11"
+
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false" />
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="false"
+        android:hint="key" />
+
+
+</RelativeLayout>

@@ -13,11 +13,11 @@
         android:layout_height="fill_parent"
         android:id="@+id/imageView3"
         android:scaleType="centerCrop"
-        android:src="@drawable/copy" />
+        android:src="@drawable/big" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="H"
         android:id="@+id/b1"
         android:onClick="onClick"
@@ -27,8 +27,8 @@
         android:layout_marginBottom="9dp" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="A"
         android:id="@+id/b2"
         android:onClick="onClick"
@@ -38,8 +38,8 @@
         android:layout_toEndOf="@+id/b1" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="R"
         android:id="@+id/b3"
         android:onClick="onClick"
@@ -49,8 +49,8 @@
         android:layout_toEndOf="@+id/b2" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="Y"
         android:id="@+id/b4"
         android:onClick="onClick"
@@ -60,8 +60,8 @@
         android:layout_toEndOf="@+id/b3" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="M"
         android:id="@+id/b5"
         android:onClick="onClick"
@@ -71,8 +71,8 @@
         android:layout_toEndOf="@+id/b4" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="N"
         android:id="@+id/b6"
         android:onClick="onClick"
@@ -82,8 +82,8 @@
         android:layout_toEndOf="@+id/b5" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="B"
         android:id="@+id/b7"
         android:onClick="onClick"
@@ -93,8 +93,8 @@
         android:layout_marginBottom="24dp" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="Q"
         android:id="@+id/b8"
         android:onClick="onClick"
@@ -105,8 +105,8 @@
 
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="T"
         android:id="@+id/b9"
         android:onClick="onClick"
@@ -116,8 +116,8 @@
         android:layout_toEndOf="@+id/b8" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="L"
         android:id="@+id/b10"
         android:onClick="onClick"
@@ -127,8 +127,8 @@
         android:layout_toEndOf="@+id/b9" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="H"
         android:id="@+id/b11"
         android:onClick="onClick"
@@ -138,8 +138,8 @@
         android:layout_toEndOf="@+id/b10" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:text="A"
         android:id="@+id/b12"
         android:onClick="onClick"

@@ -20,9 +20,11 @@ public class Activity_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_2);
 
+
         textView = (TextView) findViewById(R.id.textView);
         Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/acd55.ttf");
         textView.setTypeface(typeface);
+
 
     }
 
@@ -35,10 +37,15 @@ public class Activity_2 extends AppCompatActivity {
 
     public void Check(){
         String d = String.valueOf(textView.getText());
-         if(key.equals(d) ) {
-             Intent intent = new Intent(this, Activity_3.class);
-             startActivity(intent);
-         }
+
+        if(textView.length() > 4) {
+            if (key.equals(d)) {
+                Intent intent = new Intent(this, Activity_3.class);
+                startActivity(intent);
+            }else {
+                textView.setText("");
+            }
+        }
 
     }
 

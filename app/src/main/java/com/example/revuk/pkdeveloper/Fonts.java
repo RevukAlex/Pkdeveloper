@@ -1,7 +1,5 @@
 package com.example.revuk.pkdeveloper;
-
 import android.content.Context;
-import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 

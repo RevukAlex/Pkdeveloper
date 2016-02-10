@@ -11,8 +11,8 @@
     android:background="@drawable/copy">
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:text="H"
         android:id="@+id/b1"
         android:onClick="onClick"
@@ -24,13 +24,13 @@
          />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="A"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="M"
         android:id="@+id/b2"
         android:onClick="onClick"
         android:background="@drawable/selector"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="1dp"
         android:layout_alignTop="@+id/b1"
         android:layout_toStartOf="@+id/b3"
 
@@ -38,13 +38,13 @@
         android:layout_alignParentEnd="false" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="R"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="N"
         android:id="@+id/b3"
         android:onClick="onClick"
         android:background="@drawable/selector"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="1dp"
         android:layout_alignTop="@+id/b2"
         android:layout_toStartOf="@+id/b4"
 
@@ -52,13 +52,13 @@
         android:layout_alignParentEnd="false" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="Y"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="B"
         android:id="@+id/b4"
         android:onClick="onClick"
         android:background="@drawable/selector"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="1dp"
         android:layout_alignTop="@+id/b3"
         android:layout_toStartOf="@+id/b5"
 
@@ -66,13 +66,13 @@
         android:layout_alignParentEnd="false" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="M"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="R"
         android:id="@+id/b5"
         android:onClick="onClick"
         android:background="@drawable/selector"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="1dp"
         android:layout_alignTop="@+id/b4"
         android:layout_toStartOf="@+id/b6"
 
@@ -80,13 +80,13 @@
         android:layout_alignParentEnd="false" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="N"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="T"
         android:id="@+id/b6"
         android:onClick="onClick"
         android:background="@drawable/selector"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="1dp"
         android:layout_alignTop="@+id/b5"
         android:layout_toStartOf="@+id/imageButton"
 
@@ -94,7 +94,7 @@
         android:layout_alignParentEnd="false" />
 
     <ImageButton
-        android:layout_width="6dp"
+        android:layout_width="1dp"
         android:layout_height="40dp"
         android:id="@+id/imageButton"
         android:visibility="invisible"
@@ -102,9 +102,9 @@
         android:layout_centerHorizontal="true" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="B"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="Y"
 
         android:id="@+id/b7"
         android:onClick="onClick"
@@ -117,13 +117,13 @@
         android:layout_alignParentEnd="false" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="Q"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="A"
         android:id="@+id/b8"
         android:onClick="onClick"
         android:background="@drawable/selector"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="1dp"
         android:layout_alignTop="@+id/b7"
         android:layout_toEndOf="@+id/b7"
 
@@ -132,13 +132,13 @@
 
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="T"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="L"
         android:id="@+id/b9"
         android:onClick="onClick"
         android:background="@drawable/selector"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="1dp"
         android:layout_alignTop="@+id/b8"
         android:layout_toEndOf="@+id/b8"
 
@@ -146,13 +146,13 @@
         android:layout_alignParentEnd="false" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="L"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="Q"
         android:id="@+id/b10"
         android:onClick="onClick"
         android:background="@drawable/selector"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="1dp"
         android:layout_alignTop="@+id/b9"
         android:layout_toEndOf="@+id/b9"
 
@@ -160,13 +160,13 @@
         android:layout_alignParentEnd="false" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="H"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="A"
         android:id="@+id/b11"
         android:onClick="onClick"
         android:background="@drawable/selector"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="1dp"
         android:layout_alignTop="@+id/b10"
         android:layout_toEndOf="@+id/b10"
 
@@ -174,13 +174,13 @@
         android:layout_alignParentEnd="false" />
 
     <com.example.revuk.pkdeveloper.Fonts
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:text="A"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="H"
         android:id="@+id/b12"
         android:onClick="onClick"
         android:background="@drawable/selector"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="1dp"
 
         android:layout_alignTop="@+id/b11"
         android:layout_toEndOf="@+id/b11"
@@ -198,7 +198,17 @@
         android:background="@drawable/rounded_corner"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="false"
-        android:hint="key" />
+         />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/back_but"
+        android:background="@android:color/transparent"
+        android:onClick="Back"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp" />
 
 
 </RelativeLayout>

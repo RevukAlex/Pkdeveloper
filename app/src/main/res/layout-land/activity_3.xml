@@ -8,6 +8,16 @@
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     tools:context="com.example.revuk.pkdeveloper.Activity_3"
-    android:background="@drawable/big">
+    android:background="@drawable/point">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/back_but"
+        android:background="@android:color/transparent"
+        android:onClick="Back"
+        android:layout_alignParentTop="true"
+        android:layout_margin="4dp" />
 
 </RelativeLayout>

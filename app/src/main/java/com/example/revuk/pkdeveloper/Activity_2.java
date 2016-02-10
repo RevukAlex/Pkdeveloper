@@ -28,6 +28,11 @@ public class Activity_2 extends AppCompatActivity {
 
     }
 
+    public void Back(View v){
+        this.finish();
+
+    }
+
 
     public void onClick(View v){
         Button but = (Button) findViewById(v.getId());

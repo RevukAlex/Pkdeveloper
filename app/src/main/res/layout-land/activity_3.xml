@@ -8,7 +8,7 @@
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     tools:context="com.example.revuk.pkdeveloper.Activity_3"
-    android:background="@drawable/point">
+    android:background="@drawable/rotate3">
 
     <ImageButton
         android:layout_width="wrap_content"
